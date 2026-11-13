@@ -1,0 +1,10 @@
+fastapi==0.162.2
+fastapi_mail==1.6.8
+pydantic==2.14.3
+pydantic_settings==2.16.2
+PyJWT==2.15.1
+python-dotenv==1.2.4
+bcrypt==4.2.1
+supabase==2.34.1
+
+pydantic-settings~=2.16.2
