@@ -10,7 +10,7 @@ KINOPOISK_API_KEY = os.getenv("KINOPOISK_API_KEY")
 EXTERNAL_API_URL = "https://kinopoiskapiunofficial.tech"
 
 LAST_SYNC_TIME = None
-SYNC_INTERVAL = timedelta(hours=24)
+SYNC_INTERVAL = timedelta(minutes=2)
 PAGES_TO_DOWNLOAD = 100
 
 

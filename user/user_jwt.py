@@ -20,6 +20,7 @@ def create_access_token(data: dict, TIME_TO_END_TOKEN_MIN: int) -> str:
     encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)
     return encoded_jwt
 
+
 async def decode_access_token(auth: HTTPAuthorizationCredentials = Depends(bearer)) -> dict:
     token = auth.credentials
     """Расшифровка и проверка валидности JWT-токена"""
