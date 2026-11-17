@@ -7,10 +7,10 @@ from movie.movie_schemas import InteractionCreate
 from typing import Optional, List
 
 KINOPOISK_API_KEY = os.getenv("KINOPOISK_API_KEY")
-EXTERNAL_API_URL = "https://kinopoiskapiunofficial.tech"
+EXTERNAL_API_URL = "https://kinopoiskapiunofficial.tech/api/v2.2/films"
 
 LAST_SYNC_TIME = None
-SYNC_INTERVAL = timedelta(minutes=2)
+SYNC_INTERVAL = timedelta(hours=12)
 PAGES_TO_DOWNLOAD = 100
 
 
